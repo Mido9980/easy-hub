@@ -1,0 +1,23 @@
+{
+  "name": "EASY HUB API",
+  "version": "1.0",
+  "owner": "Mido9980",
+  "timezone": "Africa/Cairo",
+  "app": {
+    "slug": "easy-agent-docs",
+    "name": "EASY AGENT — التوثيق",
+    "icon": "📚",
+    "cat": "edu",
+    "status": "live",
+    "desc": "موقع توثيق EASY AGENT: المزايا، الخطط، والأسعار.",
+    "url": "https://nextra-docs-mido9980s-projects.vercel.app",
+    "tags": [
+      "توثيق"
+    ]
+  },
+  "links": {
+    "web": "https://nextra-docs-mido9980s-projects.vercel.app",
+    "repo": null,
+    "api": "/api/apps/easy-agent-docs.json"
+  }
+}

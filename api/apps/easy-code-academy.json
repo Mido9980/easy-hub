@@ -1,0 +1,26 @@
+{
+  "name": "EASY HUB API",
+  "version": "1.0",
+  "owner": "Mido9980",
+  "timezone": "Africa/Cairo",
+  "app": {
+    "slug": "easy-code-academy",
+    "name": "EASY CODE Academy",
+    "icon": "⚡",
+    "cat": "edu",
+    "status": "live",
+    "desc": "منصة تعلم برمجة عربية: HTML وCSS وJavaScript، ١٥ درس، محرر تجريبي مباشر، وأوفلاين كامل.",
+    "url": "https://easy-code-academy.vercel.app",
+    "repo": "https://github.com/Mido9980/easy-code-academy",
+    "tags": [
+      "تعليم",
+      "PWA",
+      "محرر مباشر"
+    ]
+  },
+  "links": {
+    "web": "https://easy-code-academy.vercel.app",
+    "repo": "https://github.com/Mido9980/easy-code-academy",
+    "api": "/api/apps/easy-code-academy.json"
+  }
+}

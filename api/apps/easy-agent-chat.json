@@ -1,0 +1,24 @@
+{
+  "name": "EASY HUB API",
+  "version": "1.0",
+  "owner": "Mido9980",
+  "timezone": "Africa/Cairo",
+  "app": {
+    "slug": "easy-agent-chat",
+    "name": "EASY AGENT — الشات",
+    "icon": "🤖",
+    "cat": "apps",
+    "status": "live",
+    "desc": "المساعد الذكي EASY AGENT على Base44 — اسأل، جرّب، وأتمت.",
+    "url": "https://app.base44.com/superagent/Ov23li3tgjtGfQlvPoxj",
+    "tags": [
+      "AI",
+      "Superagent"
+    ]
+  },
+  "links": {
+    "web": "https://app.base44.com/superagent/Ov23li3tgjtGfQlvPoxj",
+    "repo": null,
+    "api": "/api/apps/easy-agent-chat.json"
+  }
+}

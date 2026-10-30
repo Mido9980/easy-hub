@@ -1,0 +1,210 @@
+{
+  "name": "EASY HUB API",
+  "version": "1.0",
+  "owner": "Mido9980",
+  "timezone": "Africa/Cairo",
+  "count": 13,
+  "categories": [
+    {
+      "id": "all",
+      "label": "الكل"
+    },
+    {
+      "id": "apps",
+      "label": "تطبيقات"
+    },
+    {
+      "id": "edu",
+      "label": "تعليم"
+    },
+    {
+      "id": "food",
+      "label": "مطاعم"
+    },
+    {
+      "id": "bots",
+      "label": "بوتات"
+    },
+    {
+      "id": "tools",
+      "label": "أدوات"
+    },
+    {
+      "id": "dev",
+      "label": "تطوير"
+    }
+  ],
+  "apps": [
+    {
+      "slug": "quran",
+      "name": "المصحف الشريف",
+      "icon": "📖",
+      "cat": "apps",
+      "status": "live",
+      "desc": "المصحف كامل ٦٠٤ صفحات بالرسم العثماني، نسختان (أبيض/أزرق)، ٥ ألوان للصفحة، ويعمل أوفلاين.",
+      "url": "https://quran-uthmani.vercel.app",
+      "repo": "https://github.com/Mido9980/quran-uthmani",
+      "tags": [
+        "PWA",
+        "أوفلاين",
+        "٦٠٤ صفحة"
+      ]
+    },
+    {
+      "slug": "easy-code-academy",
+      "name": "EASY CODE Academy",
+      "icon": "⚡",
+      "cat": "edu",
+      "status": "live",
+      "desc": "منصة تعلم برمجة عربية: HTML وCSS وJavaScript، ١٥ درس، محرر تجريبي مباشر، وأوفلاين كامل.",
+      "url": "https://easy-code-academy.vercel.app",
+      "repo": "https://github.com/Mido9980/easy-code-academy",
+      "tags": [
+        "تعليم",
+        "PWA",
+        "محرر مباشر"
+      ]
+    },
+    {
+      "slug": "easy-code-lab",
+      "name": "EASY CODE Lab",
+      "icon": "🧪",
+      "cat": "edu",
+      "status": "beta",
+      "desc": "نسخة التجارب: حسابات محلية + أزرار دخول جوجل وجيتهاب وآبل وياهو (جاهزة للربط).",
+      "url": "https://easy-code-academy-lab.vercel.app",
+      "repo": "https://github.com/Mido9980/easy-code-academy-lab",
+      "tags": [
+        "تجريبي",
+        "حسابات"
+      ]
+    },
+    {
+      "slug": "portfolio",
+      "name": "البورتفوليو",
+      "icon": "🎨",
+      "cat": "apps",
+      "status": "live",
+      "desc": "الواجهة الرئيسية لأعمالك: مشاريع، معارض، وخدمات.",
+      "url": "https://mahmoud-portfolio-mido9980s-projects.vercel.app",
+      "tags": [
+        "تعريفي"
+      ]
+    },
+    {
+      "slug": "koshariq",
+      "name": "KoshariQ",
+      "icon": "🍲",
+      "cat": "food",
+      "status": "live",
+      "desc": "بوابة طلبات مطعم مربوطة بواتساب مع سلة ومنيو ديناميكي.",
+      "url": "https://koshariq-mido9980s-projects.vercel.app",
+      "tags": [
+        "مطاعم",
+        "واتساب"
+      ]
+    },
+    {
+      "slug": "payhub",
+      "name": "PayHub",
+      "icon": "💳",
+      "cat": "tools",
+      "status": "live",
+      "desc": "بوابة الدفع الخاصة: تجميع وسائل دفع دولية ومحلية.",
+      "url": "https://payhub-private.netlify.app",
+      "tags": [
+        "دفع",
+        "خاص"
+      ]
+    },
+    {
+      "slug": "easy-agent-docs",
+      "name": "EASY AGENT — التوثيق",
+      "icon": "📚",
+      "cat": "edu",
+      "status": "live",
+      "desc": "موقع توثيق EASY AGENT: المزايا، الخطط، والأسعار.",
+      "url": "https://nextra-docs-mido9980s-projects.vercel.app",
+      "tags": [
+        "توثيق"
+      ]
+    },
+    {
+      "slug": "easy-agent-chat",
+      "name": "EASY AGENT — الشات",
+      "icon": "🤖",
+      "cat": "apps",
+      "status": "live",
+      "desc": "المساعد الذكي EASY AGENT على Base44 — اسأل، جرّب، وأتمت.",
+      "url": "https://app.base44.com/superagent/Ov23li3tgjtGfQlvPoxj",
+      "tags": [
+        "AI",
+        "Superagent"
+      ]
+    },
+    {
+      "slug": "bot-video",
+      "name": "AI Film / Bitcoin",
+      "icon": "🎬",
+      "cat": "bots",
+      "status": "live",
+      "desc": "بوت تليجرام لإنتاج الفيديو بالذكاء الاصطناعي وألعاب البيتكوين.",
+      "url": "https://t.me/Videoartlpuhj_bot",
+      "tags": [
+        "تليجرام",
+        "AI"
+      ]
+    },
+    {
+      "slug": "bot-tap",
+      "name": "Bitcoin Tap Game",
+      "icon": "🪙",
+      "cat": "bots",
+      "status": "live",
+      "desc": "لعبة ضغط عملات بنمط Hamster Kombat مع طاقة وترقيات.",
+      "url": "https://t.me/clawb67_bot",
+      "tags": [
+        "تليجرام",
+        "لعبة"
+      ]
+    },
+    {
+      "slug": "bot-manager",
+      "name": "Melegee Manager",
+      "icon": "🧭",
+      "cat": "bots",
+      "status": "live",
+      "desc": "مدير بوتاتك: أسعار، إيجار، وليدز للعملاء الجدد.",
+      "url": "https://t.me/Omangme_bot",
+      "tags": [
+        "تليجرام",
+        "إدارة"
+      ]
+    },
+    {
+      "slug": "bot-marketing",
+      "name": "Marketing Bot",
+      "icon": "📣",
+      "cat": "bots",
+      "status": "live",
+      "desc": "حملات بث للمشتركين مع جدولة منشورات.",
+      "url": "https://t.me/OoRelas_bot",
+      "tags": [
+        "تليجرام",
+        "تسويق"
+      ]
+    },
+    {
+      "slug": "github",
+      "name": "GitHub — Mido9980",
+      "icon": "🐙",
+      "cat": "dev",
+      "status": "live",
+      "desc": "كل الأكواد والمستودعات.",
+      "url": "https://github.com/Mido9980",
+      "tags": [
+        "كود"
+      ]
+    }
+  ]
+}

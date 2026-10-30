@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>وثائق EASY HUB API</title>
+<meta name="theme-color" content="#0b1020">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="icons/icon-192.png">
+</head>
+<body>
+<header class="bar">
+  <div class="logo">🚀 <b>EASY <span>HUB</span></b></div>
+  <div class="grow"></div>
+  <a class="pill" href="./">الرئيسية</a>
+</header>
+
+<main class="wrap">
+  <h1>وثائق الـ API</h1>
+  <p class="muted">واجهة قراءة فقط (GET) بصيغة JSON، تعمل بدون مفاتيح ولا حاجة لتسجيل الدخول، وتدعم CORS من أي موقع.</p>
+
+  <h2>1. كل التطبيقات</h2>
+  <div class="ep"><span class="m">GET</span> <code>/api/apps.json</code></div>
+  <p>يرجع كل التطبيقات مع التصنيفات وعددها.</p>
+  <pre><code>curl https://easy-hub.vercel.app/api/apps.json</code></pre>
+
+  <h2>2. تطبيق واحد</h2>
+  <div class="ep"><span class="m">GET</span> <code>/api/apps/&lt;slug&gt;.json</code></div>
+  <p>يرجع بيانات تطبيق واحد بالمعرّف بتاعه. مثال: <code>/api/apps/quran.json</code></p>
+  <pre><code>curl https://easy-hub.vercel.app/api/apps/quran.json</code></pre>
+
+  <h2>3. الحالة</h2>
+  <div class="ep"><span class="m">GET</span> <code>/api/health.json</code></div>
+  <p>يرجع <code>status: ok</code> وعدد التطبيقات — مناسب للمراقبة.</p>
+
+  <h2>شكل الاستجابة</h2>
+  <pre><code>{
+  "name": "EASY HUB API",
+  "version": "1.0",
+  "app": {
+    "slug": "quran",
+    "name": "المصحف الشريف",
+    "cat": "apps",
+    "status": "live",
+    "url": "https://quran-uthmani.vercel.app",
+    "tags": ["PWA", "أوفلاين"]
+  }
+}</code></pre>
+
+  <h2>أمثلة كود</h2>
+  <h3>جافاسكريبت</h3>
+  <pre><code>const res = await fetch("https://easy-hub.vercel.app/api/apps.json");
+const data = await res.json();
+console.log(data.count, data.apps.map(a => a.name));</code></pre>
+  <h3>بايثون</h3>
+  <pre><code>import requests
+data = requests.get("https://easy-hub.vercel.app/api/apps.json", timeout=20).json()
+for app in data["apps"]:
+    print(app["slug"], app["url"])</code></pre>
+  <h3>من بوت تليجرام</h3>
+  <pre><code>import requests
+apps = requests.get("https://easy-hub.vercel.app/api/apps.json").json()["apps"]
+text = "\n".join(f'{a["icon"]} {a["name"]} — {a["url"]}' for a in apps)</code></pre>
+
+  <h2>التصنيفات المتاحة</h2>
+  <p><code>apps</code> تطبيقات · <code>edu</code> تعليم · <code>food</code> مطاعم · <code>bots</code> بوتات · <code>tools</code> أدوات · <code>dev</code> تطوير</p>
+
+  <h2>ملاحظات</h2>
+  <p>الـ API للقراءة فقط ولا يحتوي بيانات مستخدمين. الإضافات والتعديلات بتتم من ملف <code>assets/data.js</code> في المستودع ثم إعادة النشر.</p>
+  <p class="muted">المستودع: github.com/Mido9980/easy-hub</p>
+</main>
+<footer class="foot">EASY HUB API © 2026</footer>
+</body>
+</html>

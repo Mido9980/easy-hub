@@ -1,0 +1,24 @@
+{
+  "name": "EASY HUB API",
+  "version": "1.0",
+  "owner": "Mido9980",
+  "timezone": "Africa/Cairo",
+  "app": {
+    "slug": "bot-marketing",
+    "name": "Marketing Bot",
+    "icon": "📣",
+    "cat": "bots",
+    "status": "live",
+    "desc": "حملات بث للمشتركين مع جدولة منشورات.",
+    "url": "https://t.me/OoRelas_bot",
+    "tags": [
+      "تليجرام",
+      "تسويق"
+    ]
+  },
+  "links": {
+    "web": "https://t.me/OoRelas_bot",
+    "repo": null,
+    "api": "/api/apps/bot-marketing.json"
+  }
+}

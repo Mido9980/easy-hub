@@ -1,0 +1,24 @@
+{
+  "name": "EASY HUB API",
+  "version": "1.0",
+  "owner": "Mido9980",
+  "timezone": "Africa/Cairo",
+  "app": {
+    "slug": "payhub",
+    "name": "PayHub",
+    "icon": "💳",
+    "cat": "tools",
+    "status": "live",
+    "desc": "بوابة الدفع الخاصة: تجميع وسائل دفع دولية ومحلية.",
+    "url": "https://payhub-private.netlify.app",
+    "tags": [
+      "دفع",
+      "خاص"
+    ]
+  },
+  "links": {
+    "web": "https://payhub-private.netlify.app",
+    "repo": null,
+    "api": "/api/apps/payhub.json"
+  }
+}

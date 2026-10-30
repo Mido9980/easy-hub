@@ -1,0 +1,25 @@
+{
+  "name": "EASY HUB API",
+  "version": "1.0",
+  "owner": "Mido9980",
+  "timezone": "Africa/Cairo",
+  "app": {
+    "slug": "easy-code-lab",
+    "name": "EASY CODE Lab",
+    "icon": "🧪",
+    "cat": "edu",
+    "status": "beta",
+    "desc": "نسخة التجارب: حسابات محلية + أزرار دخول جوجل وجيتهاب وآبل وياهو (جاهزة للربط).",
+    "url": "https://easy-code-academy-lab.vercel.app",
+    "repo": "https://github.com/Mido9980/easy-code-academy-lab",
+    "tags": [
+      "تجريبي",
+      "حسابات"
+    ]
+  },
+  "links": {
+    "web": "https://easy-code-academy-lab.vercel.app",
+    "repo": "https://github.com/Mido9980/easy-code-academy-lab",
+    "api": "/api/apps/easy-code-lab.json"
+  }
+}

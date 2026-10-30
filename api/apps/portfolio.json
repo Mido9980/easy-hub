@@ -1,0 +1,23 @@
+{
+  "name": "EASY HUB API",
+  "version": "1.0",
+  "owner": "Mido9980",
+  "timezone": "Africa/Cairo",
+  "app": {
+    "slug": "portfolio",
+    "name": "البورتفوليو",
+    "icon": "🎨",
+    "cat": "apps",
+    "status": "live",
+    "desc": "الواجهة الرئيسية لأعمالك: مشاريع، معارض، وخدمات.",
+    "url": "https://mahmoud-portfolio-mido9980s-projects.vercel.app",
+    "tags": [
+      "تعريفي"
+    ]
+  },
+  "links": {
+    "web": "https://mahmoud-portfolio-mido9980s-projects.vercel.app",
+    "repo": null,
+    "api": "/api/apps/portfolio.json"
+  }
+}

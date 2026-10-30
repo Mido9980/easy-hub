@@ -1,0 +1,26 @@
+{
+  "name": "EASY HUB API",
+  "version": "1.0",
+  "owner": "Mido9980",
+  "timezone": "Africa/Cairo",
+  "app": {
+    "slug": "quran",
+    "name": "المصحف الشريف",
+    "icon": "📖",
+    "cat": "apps",
+    "status": "live",
+    "desc": "المصحف كامل ٦٠٤ صفحات بالرسم العثماني، نسختان (أبيض/أزرق)، ٥ ألوان للصفحة، ويعمل أوفلاين.",
+    "url": "https://quran-uthmani.vercel.app",
+    "repo": "https://github.com/Mido9980/quran-uthmani",
+    "tags": [
+      "PWA",
+      "أوفلاين",
+      "٦٠٤ صفحة"
+    ]
+  },
+  "links": {
+    "web": "https://quran-uthmani.vercel.app",
+    "repo": "https://github.com/Mido9980/quran-uthmani",
+    "api": "/api/apps/quran.json"
+  }
+}

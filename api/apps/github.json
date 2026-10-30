@@ -1,0 +1,23 @@
+{
+  "name": "EASY HUB API",
+  "version": "1.0",
+  "owner": "Mido9980",
+  "timezone": "Africa/Cairo",
+  "app": {
+    "slug": "github",
+    "name": "GitHub — Mido9980",
+    "icon": "🐙",
+    "cat": "dev",
+    "status": "live",
+    "desc": "كل الأكواد والمستودعات.",
+    "url": "https://github.com/Mido9980",
+    "tags": [
+      "كود"
+    ]
+  },
+  "links": {
+    "web": "https://github.com/Mido9980",
+    "repo": null,
+    "api": "/api/apps/github.json"
+  }
+}

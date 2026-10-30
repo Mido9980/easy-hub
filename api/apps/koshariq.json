@@ -1,0 +1,24 @@
+{
+  "name": "EASY HUB API",
+  "version": "1.0",
+  "owner": "Mido9980",
+  "timezone": "Africa/Cairo",
+  "app": {
+    "slug": "koshariq",
+    "name": "KoshariQ",
+    "icon": "🍲",
+    "cat": "food",
+    "status": "live",
+    "desc": "بوابة طلبات مطعم مربوطة بواتساب مع سلة ومنيو ديناميكي.",
+    "url": "https://koshariq-mido9980s-projects.vercel.app",
+    "tags": [
+      "مطاعم",
+      "واتساب"
+    ]
+  },
+  "links": {
+    "web": "https://koshariq-mido9980s-projects.vercel.app",
+    "repo": null,
+    "api": "/api/apps/koshariq.json"
+  }
+}

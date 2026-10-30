@@ -1,0 +1,24 @@
+{
+  "name": "EASY HUB API",
+  "version": "1.0",
+  "owner": "Mido9980",
+  "timezone": "Africa/Cairo",
+  "app": {
+    "slug": "bot-tap",
+    "name": "Bitcoin Tap Game",
+    "icon": "🪙",
+    "cat": "bots",
+    "status": "live",
+    "desc": "لعبة ضغط عملات بنمط Hamster Kombat مع طاقة وترقيات.",
+    "url": "https://t.me/clawb67_bot",
+    "tags": [
+      "تليجرام",
+      "لعبة"
+    ]
+  },
+  "links": {
+    "web": "https://t.me/clawb67_bot",
+    "repo": null,
+    "api": "/api/apps/bot-tap.json"
+  }
+}
