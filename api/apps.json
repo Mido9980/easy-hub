@@ -41,14 +41,16 @@
       "icon": "📖",
       "cat": "apps",
       "status": "live",
-      "desc": "المصحف كامل ٦٠٤ صفحات بالرسم العثماني، نسختان (أبيض/أزرق)، ٥ ألوان للصفحة، ويعمل أوفلاين.",
+      "desc": "المصحف كامل ٦٠٤ صفحات بالرسم العثماني، نسختان، ٥ ألوان، ويعمل أوفلاين. متاح كتطبيق أندرويد APK.",
       "url": "https://quran-uthmani.vercel.app",
       "repo": "https://github.com/Mido9980/quran-uthmani",
       "tags": [
         "PWA",
+        "APK",
         "أوفلاين",
         "٦٠٤ صفحة"
-      ]
+      ],
+      "apk": "downloads/quran-v2.0.apk"
     },
     {
       "slug": "easy-code-academy",

@@ -28,6 +28,7 @@
         <div class="acts">
           <a class="btn gold" href="${a.url}" target="_blank" rel="noopener">تشغيل</a>
           <a class="btn" href="api/apps/${a.slug}.json" target="_blank" rel="noopener">API</a>
+          ${a.apk ? `<a class="btn" href="${a.apk}" download>⬇️ APK</a>` : ""}
           ${a.repo ? `<a class="btn" href="${a.repo}" target="_blank" rel="noopener">كود</a>` : ""}
         </div>
       </article>`).join("") : '<p class="empty">مفيش نتائج — جرّب كلمة تانية</p>';
