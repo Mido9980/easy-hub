@@ -50,7 +50,8 @@
         "أوفلاين",
         "٦٠٤ صفحة"
       ],
-      "apk": "downloads/quran-v2.0.apk"
+      "apk": "downloads/quran-v2.0.apk",
+      "zip": "downloads/quran-v2.0-android.zip"
     },
     {
       "slug": "easy-code-academy",

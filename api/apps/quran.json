@@ -18,7 +18,8 @@
       "أوفلاين",
       "٦٠٤ صفحة"
     ],
-    "apk": "downloads/quran-v2.0.apk"
+    "apk": "downloads/quran-v2.0.apk",
+    "zip": "downloads/quran-v2.0-android.zip"
   },
   "links": {
     "web": "https://quran-uthmani.vercel.app",
