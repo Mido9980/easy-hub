@@ -3,46 +3,81 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>EASY HUB — شغّل كل مواقعك وتطبيقاتك من مكان واحد</title>
-<meta name="description" content="بوابة تشغيل كل المواقع والتطبيقات مع API موثق: قائمة التطبيقات، نقاط نهاية JSON، وبحث فوري.">
-<meta name="theme-color" content="#0b1020">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="EASY HUB">
+<title>EASY CODE — Apps Made Easy</title>
+<meta name="description" content="برامج عربية تعمل بدون إنترنت: مولّد فيديو، القرآن الكريم، مختصر روابط، أداة API، وأكتر.">
+<meta name="theme-color" content="#07110F">
 <link rel="manifest" href="manifest.webmanifest">
-<link rel="apple-touch-icon" href="icons/icon-192.png">
 <link rel="icon" href="icons/icon-192.png">
-<link rel="stylesheet" href="assets/style.css">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="assets/brand.css">
 </head>
 <body>
+<div class="glow"></div>
+
 <header class="bar">
-  <div class="logo">🚀 <b>EASY <span>HUB</span></b></div>
-  <div class="grow"></div>
-  <a class="pill" href="docs.html">API</a>
-  <button class="pill" id="installBtn" hidden>تثبيت</button>
+  <div class="logo"><span class="mark">◆</span><b>EASY</b><i>CODE</i></div>
+  <nav>
+    <a href="#apps">البرامج</a>
+    <a href="#why">ليه EASY CODE</a>
+    <a href="#contact">تواصل</a>
+  </nav>
 </header>
 
-<main class="wrap">
+<main>
   <section class="hero">
-    <h1>كل مواقعك وتطبيقاتك في مكان واحد</h1>
-    <p>بوابة تشغيل سريعة، بحث فوري، و API جاهز يخلي أي تطبيق تاني يقرأ بياناتك.</p>
-    <div class="stats" id="stats"></div>
+    <span class="chip">من محمود عادل — تطوير عربي</span>
+    <h1>برامج <span class="gold">تشتغل بدون إنترنت</span><br>وتفتح من أي موبايل</h1>
+    <p class="lead">EASY CODE بتبني أدوات عربية بسيطة وسريعة: تفتح من اللينك، تثبَّت في ثانية، وتشتغل أوف لاين من غير تسجيل.</p>
+    <div class="cta">
+      <a class="btn gold" href="#apps">شوف البرامج</a>
+      <a class="btn ghost" href="#contact">اطلب برنامجك</a>
+    </div>
+    <div class="stats">
+      <div><b>11</b><span>برنامج جاهز</span></div>
+      <div><b>0</b><span>تسجيل مطلوب</span></div>
+      <div><b>100%</b><span>أوف لاين</span></div>
+    </div>
   </section>
 
-  <input id="q" class="search" placeholder="ابحث بالاسم أو الوسم…" autocomplete="off">
-  <div class="chips" id="chips"></div>
-  <div class="grid" id="grid"></div>
+  <section id="apps">
+    <div class="sechead"><h2>البرامج</h2><span class="mut">اضغط أي برنامج ويفتح فوراً</span></div>
+    <div class="grid" id="grid"></div>
+  </section>
 
-  <section class="api-box">
-    <h2>API جاهز للاستخدام</h2>
-    <p>نقاط نهاية JSON تعمل على أي لغة: جافاسكريبت، بايثون، Flutter، أو بوت تليجرام.</p>
-    <pre><code id="apiSample"></code></pre>
-    <a class="btn" href="docs.html">وثائق الـ API كاملة</a>
+  <section id="why">
+    <div class="sechead"><h2>ليه EASY CODE</h2></div>
+    <div class="feats">
+      <div class="feat"><span>📴</span><h3>أوف لاين حقيقي</h3><p>الملفات محفوظة على جهازك، البرنامج يفتح بدون نت وبيحدث نفسه أول ما النت يرجع.</p></div>
+      <div class="feat"><span>🈯</span><h3>عربي أولاً</h3><p>واجهات عربية من اليمين للشمال، وبعض البرامج فيها 9 لغات بزرار واحد.</p></div>
+      <div class="feat"><span>⚡</span><h3>بدون تسجيل</h3><p>تفتح وتستخدم على طول. مفيش حسابات ولا انتظار ولا خطوات زيادة.</p></div>
+      <div class="feat"><span>📱</span><h3>مصمم للموبايل</h3><p>ضغطة واحدة، تثبيت على الشاشة الرئيسية، ويشتغل زي التطبيقات بالظبط.</p></div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>تحب برنامج لشغلك؟</h2>
+    <p class="mut">مولّد فيديو، مختصر روابط، شات ذكي، أو أي فكرة عندك — بننفذها ونسلمها لينك جاهز.</p>
+    <div class="channels">
+      <button class="ch" id="waBtn" type="button">
+        <span class="ci">💬</span>
+        <span><b>واتساب</b><i id="waNum">010••••••98</i></span>
+        <span class="chact" id="waAct">اضغط للكشف</span>
+      </button>
+      <a class="ch" href="mailto:mowafy599@gmail.com">
+        <span class="ci">✉️</span>
+        <span><b>إيميل</b><i>mowafy599@gmail.com</i></span>
+        <span class="chact">مراسلة</span>
+      </a>
+    </div>
   </section>
 </main>
 
-<footer class="foot">EASY HUB © 2026 · Mido9980 · <a href="docs.html">API Docs</a></footer>
+<footer>
+  <div class="logo small"><span class="mark">◆</span><b>EASY</b><i>CODE</i></div>
+  <p class="mut">Apps Made Easy — برامج عربية تعمل بدون إنترنت</p>
+</footer>
 
-<script src="assets/data.js"></script>
-<script src="assets/app.js"></script>
+<div class="toast" id="toast"></div>
+<script src="assets/brand.js"></script>
 </body>
 </html>
