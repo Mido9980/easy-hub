@@ -9,6 +9,7 @@ const APPS = [
   { n:'EASY BOOK',   d:'دفتر ملاحظات ومحتوى منظم',        i:'🗂️', u:'https://mido9980.github.io/easy-book/' },
   { n:'EASY OFFERS', d:'صفحة عروض وأكواد خصم جاهزة',      i:'🏷️', u:'https://mido9980.github.io/easy-offers/' },
   { n:'EASY PAY',    d:'صفحة دفع واشتراك مع بوابة',       i:'💳', u:'https://mido9980.github.io/easy-pay/' },
+  { n:'EASY CORE',  d:'باك إند واحد: مستخدمين، تخزين، إحصائيات', i:'🧩', u:'https://mido9980.github.io/easy-core/', t:'جديد' },
   { n:'EASY DB',    d:'تشغيل استعلامات MySQL من الموبايل', i:'🗄️', u:'https://mido9980.github.io/easy-db/', t:'جديد' },
   { n:'EASY FTP',   d:'رفع وتنزيل ملفات استضافتك',        i:'📂', u:'https://mido9980.github.io/easy-ftp/', t:'جديد' },
   { n:'EASY HUB',    d:'بوابة تشغيل المواقع مع API',      i:'🚀', u:'https://mido9980.github.io/easy-hub/' },
