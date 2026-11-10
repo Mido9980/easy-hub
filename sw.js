@@ -1,5 +1,5 @@
-const CACHE = "hub-v1";
-const CORE = ["./", "./index.html", "./docs.html", "./assets/style.css", "./assets/app.js", "./assets/data.js",
+const CACHE = "hub-v2";
+const CORE = ["./", "./index.html", "./docs.html", "./assets/brand.css", "./assets/brand.js", "./icons/apple-touch-icon.png", "./icons/icon-512.png", "./icons/icon-maskable-512.png",
   "./api/apps.json", "./api/health.json", "./manifest.webmanifest", "./icons/icon-192.png"];
 self.addEventListener("install", e => e.waitUntil(caches.open(CACHE)
   .then(c => Promise.all(CORE.map(u => c.add(new Request(u, {cache:"reload"})).catch(()=>{})))).then(() => self.skipWaiting())));

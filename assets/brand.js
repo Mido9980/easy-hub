@@ -52,8 +52,29 @@ function bindWhatsApp() {
   };
 }
 
+/* install as an app */
+let deferred = null;
+window.addEventListener('beforeinstallprompt', e => {
+  e.preventDefault(); deferred = e;
+  const b = document.getElementById('installBtn'); if (b) b.hidden = false;
+});
+function bindInstall() {
+  const b = document.getElementById('installBtn');
+  if (!b) return;
+  b.onclick = async () => {
+    if (!deferred) { toast('من قائمة المتصفح: إضافة إلى الشاشة الرئيسية'); return; }
+    deferred.prompt();
+    await deferred.userChoice;
+    deferred = null; b.hidden = true;
+  };
+  if (window.matchMedia('(display-mode: standalone)').matches) b.hidden = true;
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   renderApps();
   bindWhatsApp();
+  bindInstall();
+  const sync=()=>document.body.classList.toggle('offline',!navigator.onLine);
+  sync(); window.addEventListener('online',sync); window.addEventListener('offline',sync);
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
 });

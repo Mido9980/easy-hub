@@ -76,3 +76,9 @@ footer p{margin:6px 0 0;font-size:.75rem}
   opacity:0;pointer-events:none;transition:.2s;z-index:50}
 .toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
 @media(max-width:400px){h1{font-size:1.65rem}.grid{grid-template-columns:repeat(2,1fr)}.bar nav a:nth-child(2){display:none}}
+
+/* install button + offline badge */
+.bar nav .inst{background:linear-gradient(90deg,var(--gold),var(--gold2));color:#231a08;border:0;
+  border-radius:999px;padding:6px 13px;font-family:inherit;font-weight:800;font-size:.75rem;cursor:pointer}
+body.offline .bar:after{content:"أوف لاين";position:absolute;top:8px;left:12px;font-size:.6rem;color:var(--gold2);
+  border:1px solid rgba(217,178,106,.35);border-radius:999px;padding:2px 7px;background:rgba(217,178,106,.1)}
