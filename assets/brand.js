@@ -14,6 +14,9 @@ const APPS = [
   { n:'EASY FTP',   d:'رفع وتنزيل ملفات استضافتك',        i:'📂', u:'https://mido9980.github.io/easy-ftp/', t:'جديد' },
   { n:'EASY HUB',    d:'بوابة تشغيل المواقع مع API',      i:'🚀', u:'https://mido9980.github.io/easy-hub/' },
   { n:'AI Video Agent', d:'وكيل فيديو ذكي نسخة PWA',      i:'🤖', u:'https://mido9980.github.io/ai-video-agent/' },
+  { n:'الأكاديمية (مختبر)', d:'تجارب ودروس تحت التطوير',  i:'🧪', u:'https://mido9980.github.io/easy-code-academy-lab/' },
+  { n:'القرآن (نسخة 2)', d:'نسخة المصحف الكلاسيكية',        i:'📗', u:'https://mido9980.github.io/quran-uthmani/' },
+  { n:'البورتفوليو', d:'أعمال محمود عادل — 3D',             i:'💼', u:'https://mido9980.github.io/mahmoud-portfolio/' },
   { n:'الأكاديمية', d:'دروس وصفحات تعليمية',              i:'🎓', u:'https://mido9980.github.io/easy-code-academy/' }
 ];
 
