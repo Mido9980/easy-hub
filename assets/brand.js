@@ -1,5 +1,6 @@
 /* EASY CODE — hub page */
 const APPS = [
+  { n:'نور — NOOR', d:'مصحف 604 صفحة + 10 ترجمات، أوف لاين', i:'🌙', u:'https://mido9980.github.io/noor/', t:'مميز' },
   { n:'EASY VIDEO',  d:'مولّد فيديو بالكتابة، مع استوديو ونشر', i:'🎬', u:'https://mido9980.github.io/easy-video/', t:'مميز' },
   { n:'القرآن الكريم', d:'مصحف كامل بالخط العثماني، 9 لغات', i:'📖', u:'https://mido9980.github.io/quran/', t:'جديد' },
   { n:'EASY LINK',   d:'مختصر روابط بعدّاد نقرات وQR',    i:'🔗', u:'https://mido9980.github.io/easy-link/' },

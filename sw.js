@@ -1,4 +1,4 @@
-const CACHE = "hub-v2";
+const CACHE = "hub-v3";
 const CORE = ["./", "./index.html", "./docs.html", "./assets/brand.css", "./assets/brand.js", "./icons/apple-touch-icon.png", "./icons/icon-512.png", "./icons/icon-maskable-512.png",
   "./api/apps.json", "./api/health.json", "./manifest.webmanifest", "./icons/icon-192.png"];
 self.addEventListener("install", e => e.waitUntil(caches.open(CACHE)
