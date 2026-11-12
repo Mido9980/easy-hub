@@ -3,6 +3,7 @@ const APPS = [
   { n:'نور — NOOR', d:'مصحف 604 صفحة + 10 ترجمات، أوف لاين', i:'🌙', u:'https://mido9980.github.io/noor/', t:'مميز' },
   { n:'EASY VIDEO',  d:'مولّد فيديو بالكتابة، مع استوديو ونشر', i:'🎬', u:'https://mido9980.github.io/easy-video/', t:'مميز' },
   { n:'القرآن الكريم', d:'مصحف كامل بالخط العثماني، 9 لغات', i:'📖', u:'https://mido9980.github.io/quran/', t:'جديد' },
+  { n:'EASY QURAN', d:'المصحف بواجهة جديدة: بطاقات ومصحف، بحث ومحفوظات', i:'📘', u:'https://mido9980.github.io/quran-nour/', t:'جديد' },
   { n:'EASY LINK',   d:'مختصر روابط بعدّاد نقرات وQR',    i:'🔗', u:'https://mido9980.github.io/easy-link/' },
   { n:'EASY API',    d:'أداة اختبار واجهات HTTP من الموبايل', i:'⚡', u:'https://mido9980.github.io/easy-api/' },
   { n:'EASY CHAT',   d:'شات ذكي بواجهة سوداء وذهبية',     i:'💬', u:'https://mido9980.github.io/easy-chat/' },
